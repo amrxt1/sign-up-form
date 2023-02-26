@@ -27,28 +27,62 @@
         </div>
 
         <div class="form-area">
+          <h2>Let's pull your details!</h2>
           <form action="#" method="get">
-            <label for="first_name">First Name</label>
-            <input type="text" id="first_name" name="first_name" />
+            <div class="form-left">
+              <div class="pair">
+                <label for="first_name">First Name</label>
+                <input
+                  type="text"
+                  id="first_name"
+                  name="first_name"
+                  placeholder="First Name"
+                />
+              </div>
 
-            <label for="last_name">Last Name</label>
-            <input type="text" id="last_name" name="last_name" />
+              <div class="pair">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="you@example.com"
+                />
+              </div>
+              <div class="pair">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" />
+              </div>
+            </div>
+            <div class="form-right">
+              <div class="pair">
+                <label for="last_name">Last Name</label>
+                <input
+                  type="text"
+                  id="last_name"
+                  name="last_name"
+                  placeholder="Last Name"
+                />
+              </div>
+              <div class="pair">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="number"
+                  name="phone"
+                  id="phone"
+                  placeholder="1234567890"
+                />
+              </div>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" />
-
-            <label for="phone">Phone Number</label>
-            <input type="number" name="phone" id="phone" />
-
-            <label for="password">Password</label>
-            <input type="password" name="password" id="password" />
-
-            <label for="confirm-password">Confirm Password</label>
-            <input
-              type="password"
-              name="confirm-password"
-              id="confirm-password"
-            />
+              <div class="pair">
+                <label for="confirm-password">Confirm Password</label>
+                <input
+                  type="password"
+                  name="confirm-password"
+                  id="confirm-password"
+                />
+              </div>
+            </div>
           </form>
         </div>
 
