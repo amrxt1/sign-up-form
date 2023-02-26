@@ -23,7 +23,7 @@
             your way to victory? The annual tractor pull competition is just
             around the corner, and we want <em>YOU</em> to be a part of it!
           </p>
-          <p>Sign up today and let's get ready to <em>pull!</em></p>
+          <p>Sign up today and let's get ready to <em>pull</em>!</p>
         </div>
 
         <div class="form-area">
@@ -37,12 +37,14 @@
                   id="first_name"
                   name="first_name"
                   placeholder="First Name"
+                  required
                 />
               </div>
 
               <div class="pair">
                 <label for="email">Email</label>
                 <input
+                  required
                   type="email"
                   id="email"
                   name="email"
@@ -51,13 +53,20 @@
               </div>
               <div class="pair">
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password" />
+                <input
+                  required
+                  type="password"
+                  name="password"
+                  id="password"
+                  pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                />
               </div>
             </div>
             <div class="form-right">
               <div class="pair">
                 <label for="last_name">Last Name</label>
                 <input
+                  required
                   type="text"
                   id="last_name"
                   name="last_name"
@@ -67,6 +76,7 @@
               <div class="pair">
                 <label for="phone">Phone Number</label>
                 <input
+                  required
                   type="number"
                   name="phone"
                   id="phone"
@@ -77,9 +87,12 @@
               <div class="pair">
                 <label for="confirm-password">Confirm Password</label>
                 <input
+                  required
                   type="password"
                   name="confirm-password"
                   id="confirm-password"
+                  pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                  title="Password must contain min. 8 characters including a number"
                 />
               </div>
             </div>
