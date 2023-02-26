@@ -15,9 +15,9 @@ body {
 }
 
 .left {
-  flex: 0.65 0 100px;
-  background-image: url(./assets/tractor-pull.jpeg);
-  background-position: top;
+  flex: 0.75 0 100px;
+  background-image: url(./assets/tractor-bg.jpg);
+  background-position: center right;
   background-size: cover;
 }
 
@@ -39,7 +39,7 @@ body {
 .norse {
   margin: 0;
   font-family: "Norse-Bold";
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .right {
@@ -48,6 +48,10 @@ body {
 
   display: flex;
   flex-direction: column;
+}
+//temp
+div.right > div {
+  flex: 1;
 }
 
 .ad-text {
