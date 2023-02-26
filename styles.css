@@ -1,0 +1,62 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+  width: auto;
+}
+@font-face {
+  font-family: "Norse-Bold";
+  src: url(./assets/Norse-Bold.otf);
+}
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.left {
+  flex: 0.65 0 100px;
+  background-image: url(./assets/tractor-pull.jpeg);
+  background-position: top;
+  background-size: cover;
+}
+
+.logo-area {
+  position: relative;
+  top: 22vh;
+
+  padding: 7px;
+  background-color: #ffffffaa;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.logo {
+  width: 15%;
+}
+.norse {
+  margin: 0;
+  font-family: "Norse-Bold";
+  font-size: 3rem;
+}
+
+.right {
+  flex: 2;
+  background-color: grey;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.ad-text {
+  font-size: 1.5rem;
+  padding: 0px 5%;
+}
+
+.form-area {
+  padding: 0px 5%;
+}
+.form {
+}
